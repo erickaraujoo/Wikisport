@@ -1,0 +1,1255 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(99, 158, 255, .3);
+}
+
+/* PADRONIZAÇÕES */
+
+h1{
+    font-size: 42px;
+    background: -webkit-radial-gradient(center , black, gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: georgia;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h3{
+    padding-top: 10px;
+    box-sizing: border-box;
+    font-size: 25px;
+    font-family: georgia;
+}
+
+.btn, .btn_lg{
+    border: solid 0px black;
+    background-color: rgba(99, 158, 255, 1);
+    color: black;
+    font-weight: bold;
+    font-family: georgia;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn{
+    height: 50px;
+    width: 150px;
+    font-size: 23px;
+    border-radius: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.txt_btn_lg{
+    color: black;
+}
+
+.btn_lg{
+    margin: 0 auto;
+    padding-top: 12px;
+    box-sizing: border-box;
+    height: 60px;
+    width: 200px;
+    font-size: 25px;
+    border-radius: 10px;
+}
+
+.btn_lg a, .btn a{
+    color: black;
+    text-decoration: none;
+}
+
+.btn_lg:hover a, .btn:hover a{
+    color: gray;
+    transition: .4s;
+}
+
+.btn_lg:hover, .btn:hover{
+    background-color: black;
+    transition: .4s;
+}
+
+.layer{
+    height: inherit;
+    width: inherit;
+    transition: .4s;
+}
+
+.marginY{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.layer_escuro{
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0, 0, 0, .5);
+    transition: .4s;
+}
+
+.layer_text{
+    height: inherit;
+    width: inherit;
+    transition: 1s;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.layer_text:hover{
+    background-color: rgba(0, 0, 0, .7);
+    transition: .4s;
+}
+
+.layer:hover{
+    background-color: rgba(0, 0, 0, .3);
+    transition: .4s;
+}
+
+.layer_escuro:hover{
+    background-color: rgba(0, 0, 0, .8);
+    transition: .4s;
+}
+
+.layer_icon{
+    height: inherit;
+    width: inherit;
+    border-radius: 150px;
+    transition: .4s;
+}
+
+.layer_icon:hover{
+    background-color: rgba(0, 0, 0, .4);
+    transition: .4s;
+}
+
+.mt{
+    margin-top: 50px;
+}
+
+.mb{
+    margin-bottom: 50px;
+}
+
+.indent{
+    text-indent: 50px;
+}
+
+.text_href{
+    text-align: center;
+    width: 100px;
+}
+
+.text{
+    font-size: 20px;
+    text-align: center;
+    font-family: georgia;
+}
+
+.text_lg{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.text_lg_justify{
+    font-size: 22px;
+    text-align: justify;
+    line-height: 1.5;
+    font-family: georgia;
+}
+
+.text_lg_center{
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+    font-family: georgia;
+}
+
+.text_md{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 8px;
+    font-family: georgia;
+}
+
+.text_center{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.text_justify{
+    font-size: 20px;
+    text-align: justify;
+    margin-top: 8px;
+    font-family: georgia;
+}
+
+.text_left{
+    font-size: 25px;
+    text-align: left;
+    font-family: georgia;
+}
+
+.text_left_white{
+    font-size: 25px;
+    text-align: left;
+    font-family: georgia;
+    color: white;
+}
+
+.text_md_left{
+    font-size: 22px;
+    text-align: left;
+}
+
+.text_right{
+    font-size: 25px;
+    text-align: right;
+}
+
+.title{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: georgia;
+    text-align: center;
+}
+
+.title_left{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: georgia;
+    text-align: left;
+}
+
+.title_right{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+    font-size: 24px;
+    font-family: georgia;
+    text-align: right;
+}
+
+.title_md{
+    font-family: georgia;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.subtitle{
+    font-family: georgia;
+    font-size: 22px;
+    font-weight: bold;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.subtitle_wikisport{
+    margin-top: 15px;
+    font-size: 22px;
+}
+
+.href_width{
+    padding-top: 8px;
+    box-sizing: border-box;
+    height: 20px;
+    width: 100px;
+}
+
+.normal_href{
+    text-decoration: none;
+    color: black;
+    transition: .2s;
+    font-family: georgia;
+}
+
+.normal_href:hover{
+    color: #c61700;
+    transition: .2s;
+}
+
+.line_height{
+    line-height: 1.5;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.center{
+    margin: 0 auto;
+}
+
+/* LARGURA DO SITE */
+
+.container_wikisport{
+    width: 1400px;
+}
+
+/* --------------------- CABEÇALHO DO SITE --------------------- */
+
+.cabecalho_wikisport{
+    height: 180px;
+    width: inherit;
+    background-color: rgba(99, 158, 255, .7);
+    display: flex
+}
+
+/* LOGO */
+.logo_cabecalho{
+    margin-top: 30px;
+    height: 150px;
+    width: 300px;
+    background-image: url(../image/logo2.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* TITULO E PESQUISAR */
+.cabecalho{
+    width: 850px;
+    height: inherit;
+    display: flex;
+    text-align: center;
+    display: table;
+}
+
+/* TITULO DO SITE */
+.titulo_cabecalho{
+    height: 90px;
+    width: inherit;
+    margin-top: 20px;
+}
+
+/* CAIXA DE TEXTO */
+.pesquisa_cabecalho{
+    width: 500px;
+    box-sizing: border-box;
+    display: flex;
+}
+.search{
+    height: 32px;
+    width: inherit;
+    border-radius: 10px 0 0 10px;;
+    border: solid 2px rgba(99, 158, 255, 1);
+    text-indent: 1.5ch;
+    font-size: 21px;
+    font-family: Copperplate Gothic Bold;
+    background-color: white;
+}
+.lupa{
+    padding-right: 10px;
+    padding-left: 5px;
+    height: 36px;
+    width: 32px;
+    border-radius: 0px 10px 10px 0px;
+    background-color: rgba(99, 158, 255, 1);
+    cursor: pointer;
+}
+
+/* AREA DE LOGIN */
+.cadastro_cabecalho{
+    height: inherit;
+    width: 130px;
+    text-align: right;
+    padding-top: 98px;
+    box-sizing: border-box;
+}
+.login_cabecalho{
+    height: 170px;
+    width: 120px;
+    padding-top: 55px;
+    box-sizing: border-box;
+}
+.img_login{
+    height: 60px;
+}
+.text_cadastro{
+    font-size: 20px;
+}
+
+.text_login{
+    font-size: 20px;
+    width: 60px;
+}
+
+/* --------------------- NAVEGADOR DO SITE --------------------- */
+
+
+/* NAVEGADOR */
+.nav_wikisport{
+    width: inherit;
+    height: 50px;
+}
+
+.nav_wikisport ul{
+    height: inherit;
+    width: inherit;
+    cursor: pointer;
+}
+
+.nav_wikisport ul li{
+    list-style: none;
+    float: left;
+}
+
+.nav_wikisport ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* DEFININDO OS NAVEGADORES */
+.item_nav{
+    background-color: rgba(99, 158, 255, 1);
+    height: 50px;
+    width: 175px;
+    text-align: center;
+    padding-top: 15px;
+    box-sizing: border-box;
+    transition: .4s;
+    color: black;
+}
+
+.item_nav:hover a{
+    color: gray;
+    transition: .4s;
+}
+
+/* TEXTO DOS NAVEGADORES */
+.item_nav p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Mongolian Baiti;
+    font-family: georgia;
+}
+
+.item_nav:hover{
+    background-color: black;
+    color: gray;
+    transition: .4s;
+}
+
+/* --------------------- INÍCIO DO SITE --------------------- */
+
+/* IMAGEM DE FUNDO DO INICIO */
+.inicio_wikisport {
+    height: 850px;
+    background-image: url(../image/fundo_basket3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fundo_inicio{
+    padding-top: 300px;
+    box-sizing: border-box;
+}
+
+.titulo_inicio{
+    width: inherit;
+    color: white;
+    line-height: 2;
+    border-radius: 20px;
+}
+
+.text_inicio{
+    text-transform: uppercase;
+    font-family: georgia; 
+}
+
+/* --------------------- DESTAQUES DO SITE --------------------- */
+
+/* TAMANHO DO CONTAINER DO DESTAQUES */
+.destaques_wikisport {
+    width: 100%;
+    height: 850px;
+    margin-top: 10px;
+    transition: .7s;
+}
+.destaques_wikisport:hover {
+    background-color: rgba(99, 158, 255, 1); 
+    transition: .7s;
+}
+/* CAIXAS DOS DESTAQUES */
+.destaques_wikisport .box_destaques{
+    margin: 0 20px;
+    float: left;
+}
+
+/* TAMANHO DAS CAIXAS DOS DESTAQUES*/
+.destaques_1, .destaques_2, .destaques_3{
+    height: 600px;
+    width: 425px;
+}
+
+/* TAMANHO DAS IMAGENS */
+.img_destaques_1, .img_destaques_2, .img_destaques_3{
+    height: 270px;
+    width: inherit;
+}
+
+/* IMAGEM 1 DOS DESTAQUES */
+.img_destaques_1{
+    background-image: url(../image/futebol.png);
+    background-size: cover;
+}
+
+/* IMAGEM 2 DOS DESTAQUES */
+.img_destaques_2{
+    background-image: url(../image/cricket.jpg);
+    background-size: cover;
+}
+
+/* IMAGEM 3 DOS DESTAQUES */
+.img_destaques_3{
+    background-image: url(../image/hockey.jpg);
+    background-size: cover;
+}
+
+/* --------------------- NOTICIAS DO SITE --------------------- */
+
+/* TAMANHO DO CONTAINER NOTICIAS */
+.noticias_wikisport{
+    margin-top: 10px;
+    width: inherit;
+    height: 750px;
+    transition: .7s;
+}
+.noticias_wikisport:hover {
+    background-color: rgba(99, 158, 255, 1); 
+    transition: .7s;
+}
+
+/* TAMANHO DO CONTEUDO DO NOTICIAS */
+.noticias{
+    width: 1200px;
+    height: inherit;
+}
+
+/* BOX 1 DO CONTEUDO DO NOTICIAS */
+.container1_box_noticia{
+    width: 540px;
+    height: 580px;
+    float: left;
+}
+
+/* BOX 2 DO CONTEUDO DO NOTICIAS */
+.container2_box_noticia{
+    width: 580px;
+    margin-left: 50px;
+    height: 500px;
+    float: left;
+}
+
+/* CAIXA 1 DO BOX 2 */
+.box_noticia2{
+    height: 290px;
+    width: inherit;
+}
+
+/* CAIXA 2 DO BOX 2 */
+.box_noticia3{
+    height: 290px;
+    width: inherit;
+}
+
+/* IMAGEM 1 DAS NOTICIAS */
+.img_noticia_1{
+    width: inherit;
+    height: 280px;
+    background-image: url(../image/noticia1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* TAMANHO DAS IMAGENS 1 E 2 DE NOTICIAS */ 
+.img_noticia_2, .img_noticia_3{
+    width: 230px;
+    height: 190px;
+    float: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* SEGUNDA IMAGEM DE NOTICIAS */
+.img_noticia_2{
+    background-image: url(../image/noticia2.jpg);
+}
+
+/* TERCEIRA IMAGEM DE NOTICIAS */
+.img_noticia_3{
+    background-image: url(../image/noticia3.jpg);
+}
+
+/* TAMANHO DAS CAIXAS 1 E 2 DE TEXTO DE NOTICIAS */
+.texto_noticia_2, .texto_noticia_3{
+    width: 350px;
+    height: inherit;
+    margin-left: 245px;
+}
+
+.title_noticias{
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: georgia;
+}
+
+.title_noticias:nth-child(2){
+    margin-top: 20px;
+}
+
+/* --------------------- PRATIQUE DO SITE --------------------- */
+
+/* TAMANHO E FUNDO DO CONTAINER PRATIQUE */
+.pratique_wikisport{
+    background-image: url(../image/pratiqueEsporte3.jpg);
+    background-size: contain;
+    color: white;
+    height: 1950px;
+    margin-top: 10px;
+}
+
+/* TEXTO BENEFICIOS E ASPECTO */
+.beneficios_pratique, .aspecto_pratique{
+    width: 580px;
+    height: 600px;
+    margin-left: 100px;
+}
+
+/* TEXTO ZERO ESTRESSE */
+.estresse_pratique{
+    width: 580px;
+    height: 500px;
+    margin-left: 650px;
+}
+
+/* TITULO BENEFICIOS */
+.title_beneficios, .title_adrenalina{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+/* --------------------- ARTES MARCIAIS DO SITE --------------------- */
+
+/* TAMANHO DO CONAINER DAS ARTES MARCIAIS */
+.artesMarciais_wikisport{
+    height: 1300px;
+    width: inherit;
+    transition: .7s;
+}
+
+.artesMarciais_wikisport:hover{
+    background-color: rgba(99, 158, 255, 1);
+    transition: .7s;
+}
+
+/* CONTEUDO DAS ARTES MARCIAIS */
+.container_artesMarciais{
+    width: 1200px;
+    height: 650px;
+    display: flex;
+}
+
+/* TEXTO DAS ARTES MARCIAIS */
+.text_container{
+    width: 600px;
+    height: 650px;
+}
+
+/* IMAGEM DAS ARTES MARCIAIS */
+.img_container{
+    margin-top: 10px;
+    width: 550px;
+    margin-left: 50px;
+    height: 490px;
+    background-image: url(../image/artes_marciais2.jpg);
+    background-size: contain;
+}
+
+
+/* --------------------- POPULARES DAS ARTES MARCIAIS --------------------- */
+    
+/* CONTAINER DO POPULARES */
+.populares_wikisport{
+    width: 1400px;
+    height: 450px;
+}
+
+/* CONTEUDO DO POPULARES */
+.container_populares{
+    height: 280px;
+    width: 1200px;
+    display: flex;
+}
+
+/* TAMANHO DOS BOX DE CONTEUDO DO POPULARES */
+.populares_1, .populares_2, .populares_3, .populares_4,.populares_5{
+    margin: 0 20px;
+    width: 200px;
+    height: 250px;
+}
+
+/* IMAGEM 1 DO POPULARES */
+.img_populares_1{
+    background-image: url(../image/jiujitsu2.jpg);
+    background-size: contain;
+    height: 200px;
+    width: inherit;
+}
+
+/* IMAGEM 2 DO POPULARES */
+.img_populares_2{
+    background-image: url(../image/kungfu.jpg);
+    background-size: contain;
+    height: 200px;
+    width: inherit;
+}
+
+/* IMAGEM 31 DO POPULARES */
+.img_populares_3{
+    background-image: url(../image/muaythai.jpg);
+    background-size: contain;
+    height: 200px;
+    width: inherit;
+}
+
+/* IMAGEM 4 DO POPULARES */
+.img_populares_4{
+    background-image: url(../image/karate.jpg);
+    background-size: contain;
+    height: 200px;
+    width: inherit;
+}
+
+/* IMAGEM 5 DO POPULARES */
+.img_populares_5{
+    background-image: url(../image/taekwondo.jpg);
+    background-size: contain;
+    height: 200px;
+    width: inherit;
+}
+
+/* --------------------- SESSÃO ADRENALINA DO SITE --------------------- */
+
+/* CONTAINER DE ADRENALINA */
+.adrenalina_wikisport{
+    height: 2150px;
+    width: inherit;
+}
+
+/* BOX DO CONTEUDO DE SURFE */
+.surfe_adrenalina{
+    width: 1000px;
+    height: 450px;
+    margin-left: 100px;
+}
+
+.img_surfe{
+    width: inherit;
+    height: 380px;
+    background-image: url(../image/surfe.jpg);
+    background-size: contain;
+}
+
+/* BOX DO CONTEUDO DE MOUNTAIN BIKE */
+.mountain_bike_adrenalina{
+    width: 1000px;
+    height: 450px;
+    margin-left: 300px;
+}
+
+/* IMAGEM DO BOX DE MOUNTAIN BIKE*/
+.img_mountainBike{
+    width: inherit;
+    height: 380px;
+    background-image: url(../image/mountain_bike.jpg);
+    background-size: contain;
+}
+
+/* BOX DO CONTEUDO DE WINGSUIT */
+.wingsuit_adrenalina{
+    width: 1000px;
+    height: 450px;
+    margin-left: 100px;
+}
+
+/* IMAGEM DO BOX DE WINGSUIT */
+.img_wingsuit{
+    width: inherit;
+    height: 380px;
+    background-image: url(../image/wingsuit.jpg);
+    background-size: contain;
+}
+
+/* BOX DO CONTEUDO DE RAFTING */
+.rafting_adrenalina{
+    width: 1000px;
+    height: 450px;
+    margin-left: 300px;
+}
+
+/* IMAGEM DO BOX DE RAFTING */
+.img_rafting{
+    width: inherit;
+    height: 380px;
+    background-image: url(../image/rafting.jpg);
+    background-size: contain;
+}
+
+/* CAIXA DE TEXTO SOBREPOSTA À IMAGEM DE ADRENALINA */
+.box_text{
+    visibility: hidden;
+    text-align: center;
+    color: white;
+    width: 800px;
+    transition: .2s;
+    padding-top: 110px;
+    font-size: 25px;
+    line-height: 1.5;
+}
+
+/* ATIVANDO CAIXA DE TEXTO SOBREPOSTA ÀS IMAGENS */
+.layer_text:hover > .box_text, .layer_text:hover > .text_esporte{
+    visibility: visible;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+/* --------------------- SESSÃO CAPACIDADES FISICAS DO SITE --------------------- */
+
+/* CONTAINER DAS CAPACIDADES FISICAS */
+.fisico_wikisport{
+    height: 1250px;
+    width: inherit;
+    transition: .7s;
+}
+.fisico_wikisport:hover{
+    background-color: rgba(99, 158, 255, 1);
+    transition: .7s;
+}
+
+/* CONTEUDO DAS CAPACIDADES FISICAS */
+.container_fisico{
+    height: inherit;
+    width: 1200px;
+}
+
+/* TAMANHO DOS CONTAINER COM BOX DAS CAPACIDADES FISICAS */
+.container1_fisico, .container2_fisico{
+    height: 970px;
+    width: 600px;
+    float: left;
+}
+
+/* TAMANHO DE CADA BOX DAS CAPACIDADES */
+.forca_fisico, .velocidade_fisico, .agilidade_fisico, .equilibrio_fisico, .flexibilidade_fisico, .resistencia_fisico{
+    height: 260px;
+    width: inherit;
+    margin-top: 50px;
+}
+
+/* TAMANHO DOS ÍCONES DAS IMAGENS DAS CAPACIDADES */
+.img_forca, .img_velocidade, .img_agilidade, .img_equilibrio, .img_flexibilidade, .img_resistencia{
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
+    float: left;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* PRIMEIRO ICONE DO PRIMEIRO CONTAINER */
+.img_forca{
+    background-image: url(../image/forca.jpg);
+}
+
+/* SEGUNDO ICONE DO PRIMEIRO CONTAINER */
+.img_velocidade{
+    background-image: url(../image/velocidade.jpg);
+}
+
+/* TERCEIRO ICONE DO PRIMEIRO CONTAINER */
+.img_agilidade{
+    background-image: url(../image/agilidade2.jpg);
+}
+
+/* PRIMEIRO ICONE DO SEGUNDO CONTAINER */
+.img_equilibrio{
+    background-image: url(../image/equilibrio.jpg);
+}
+
+/* SEGUNDO ICONE DO SEGUNDO CONTAINER */
+.img_flexibilidade{
+    background-image: url(../image/flexibilidade.jpg);
+}
+
+/* TERCEIRO ICONE DO SEGUNDO CONTAINER */
+.img_resistencia{
+    background-image: url(../image/resistencia.jpg);
+}
+
+/* CONTAINER DOS TEXTOS DAS CAPACIDADES */
+.texto_forca, .texto_velocidade, .texto_agilidade, .texto_equilibrio, .texto_flexibilidade, .texto_resistencia{
+    width: 400px;
+    height: 150px;
+    float: left; 
+}
+
+/* CAIXAS DE TEXTOS DAS CAPACIDADES */
+.paragrafo_capacidades{
+    width: 350px;
+    height: inherit;
+    margin: 10px auto 0 auto;
+    font-size: 22px;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* --------------------- SESSÃO CAPACIDADES FISICAS DO SITE --------------------- */
+
+/* CONTAINER DA HISTORIA */
+.historia_wikisport{
+    width: inherit;
+    height: 1850px;
+    margin-top: 10px;
+    transition: .7s;
+}
+.historia_wikisport:hover{
+    background-color: rgba(99, 158, 255, 1);
+    transition: .7s;
+}
+
+/* CONTEUDO DA HISTORIA */
+.container_historia{
+    width: 1100px;
+    height: inherit;
+}
+
+/* CONTAINER DAS IMAGENS 1, 2 E 3 DA HISTORIA */
+.container1_img_historia{
+    width: 1100px;
+    height: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+/* CONTAINER DA IMAGEM 4 E CONTEUDO DA HISTORAI */
+.container2_img_historia{
+    width: 1150px;
+    height: 525px;
+    margin-top: 25px;
+    display: flex;
+}
+
+/* TAMANHO DOS BOX DAS IMAGENS */
+.box1_historia, .box2_historia, .box3_historia{
+    height: inherit;
+    width: 320px;
+}
+
+.box2_historia, .box3_historia{
+    margin-left: 70px;
+}
+
+/* BOX DAS IMAGENS 1, 2 E 3 DA HISTORIA */
+.img1_historia, .img2_historia, .img3_historia {
+    height: 230px;
+    width: 320px;
+}
+
+/* IMAGEM 1 DA HISTORIA */
+.img1_historia{
+    background-image: url(../image/esporte_antigo3.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* IMAGEM 2 DA HISTORIA */
+.img2_historia{
+    background-image: url(../image/esporte_moderno.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/* IMAGEM 3 DA HISTORIA */
+.img3_historia{
+    background-image: url(../image/esporte_contemporaneo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
+
+/* IMAGEM 4 DA HISTORIA */
+.img4_historia{
+    background-image: url(../image/esporte_olimpico_antigo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 759px;
+    background-color: yellow;
+}
+
+/* TEXTOS DAS IMAGENS DA HISTORIA */
+.text1_historia, .text2_historia, .text3_historia{
+    height: 180px;
+    width: 220px;
+    float: left;
+}
+
+/* TAMANHO DAS CAIXAS DOS TEXTOS DAS IMAGENS DA HISTORIA */
+.text_esporte{
+    padding-top: 100px;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: white;
+    font-family: georgia;
+    text-align: center;
+    visibility: hidden;
+    transition: .4s;
+}
+
+/* PRIMEIRO CONTAINER DA HISTORIA */
+.container1_text_historia{
+    height: 300px;
+    width: inherit;
+}
+
+/* SEGUNDO CONTAINER DA HISTORIA */
+.container2_img_historia{
+    height: 500px;
+    width: 1100px;
+}
+
+/* --------------------- SESSÃO SOBRE DO SITE --------------------- */
+
+/* CONTAINER DO SOBRE */
+.sobre_wikisport{
+    width: inherit;
+    height: 700px;
+}
+
+/* CONTEUDO O SOBRE */
+.container_sobre{
+    width: 1200px;
+    margin-left: 100px;
+    display: flex;
+    height: 400px;
+}
+
+/* PROPOSTA DA NOSSA EMPRESA */
+.proposta_sobre{
+    height: inherit;
+    width: 600px;
+    margin-right: 45px;
+}
+
+/* METODO DA NOSSA EMPRESA */
+.metodo_sobre{
+    height: inherit;
+    width: 600px;
+    margin-left: 45px;
+}
+
+/* TEXTOS DO SOBRE */
+.text_proposta, .text_metodo{
+    height: 250px;
+    width: 500px;
+}
+
+/* MARGEM PARA O TEXTO DA PROPOTA */
+.text_proposta{
+    margin-left: auto;
+}
+
+.container_btn_sobre{
+    margin-top: 30px;
+}
+
+/* --------------------- SESSÃO FALE CONOSCO DO SITE --------------------- */
+
+/* CONTAINER DO FALE CONOSCO */
+.faleConosco_wikisport{
+    height: 700px;
+    width: inherit;
+    background-image: url(../image/faleconosco.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.faleConosco_wikisport:hover{
+    color: white;
+}
+
+/* CONTEUDO DO FALE CONOSCO */
+.container_faleConosco{
+    height: 400px;
+    width: 1200px;
+    display: flex;
+}
+
+/* PRIMEIRA CAIXA PARA DADOS */
+.box1_faleConosco{
+    height: inherit;
+    width: 600px;
+}
+
+/* SEGUNDA CAIXA PARA DADOS */
+.box2_faleConosco{
+    height: inherit;
+    width: 600px;
+}
+
+/* TITULOS DAS CAIXAS PARA DADOS */
+.box1_faleConosco p, .box2_faleConosco p{
+    font-size: 30px;
+    font-family: georgia;
+    margin-top: 15px;
+}
+
+/* BOX 1, 2 E 3 DAS CAIXAS PARA DADOS */
+.nome_faleConosco, .endereco_faleConosco, .email_faleConosco{
+    width: inherit;
+    height: 100px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+/* BOX 4 DAS CAIXAS PARA DADOS */
+.mensagem_faleConosco{
+    height: 300px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+/* ESTILIZAÇÃO DOS INPUT TEXT E TEXTAREA DO FALECONOSCO */
+.search_faleConosco, .textarea_faleConosco{
+    border-radius: 5px;
+    border: solid 0px black;
+    font-size: 22px;
+    text-indent: 1ch;
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family: georgia;
+    resize: none;
+}
+
+/* TAMANHO DOS INPUT TEXT DO FALECONOSCO */
+.search_faleConosco{
+    height: 40px;
+    width: 500px;
+}
+
+/* TAMANHO DO TEXTAREA DO FALECONOSCO */
+.textarea_faleConosco{
+    height: 270px;
+    width: 480px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.container_btn_faleConosco{
+    margin-top: 50px;
+}
+
+/* --------------------- SESSÃO DO RODAPÉ DO SITE --------------------- */
+
+/* CONTAINER DO RODAPÉ */
+.rodape_wikisport{
+    height: 165px;
+    width: inherit;
+    background-color: rgba(99, 158, 255, 1);
+    margin-top: 10px;
+}
+
+/* CONTEUDO DO RODAPE */
+.container_rodape{
+    height: inherit;
+    width: 1200px;
+    display: flex;
+}
+
+/* COPYRIGHT DO RODAPE */
+.copyright{
+    height: inherit;
+    width: 400px;
+}
+
+/* CONTAINER DAS REDES SOCIAIS */
+.container_redes{
+    display: flex;
+    width: 210px;
+    margin-top: 70px;
+}
+
+/* REDES SOCIAIS PARA CONTATO */
+.redes_sociais{
+    height: inherit;
+    width: 400px;
+}
+
+/* POLITICAS DE PRIVACIDADE DO SITE */
+.politica_rodape{
+    height: inherit;
+    width: 245px;
+}
+
+/* TERMOS DE USO DO SITE */
+.termos_rodape{
+    height: inherit;
+    width: 155px;
+}
+
+/* DESCENDO SO TEXTOS DO RODAPE */
+.copyright, .termos_rodape, .politica_rodape{
+    padding-top: 110px;
+    box-sizing: border-box;
+}
+
+/* ESTILIZAÇÃO DAS REDES SOCIAIS */
+.facebook, .instagram, .twitter{
+    height: 60px;
+    width: 60px;
+    border-radius: 45px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* IMAGEM FACEBOOK */
+.facebook{
+    background-image: url(../image/facebook.png);
+    background-size: cover;
+}
+
+/* IMAGEM TWITTER */
+.twitter{
+    background-image: url(../image/twitter.jpg);
+    background-size: cover;
+}
+
+/* IMAGEM INSTAGRAM */
+.instagram{
+    background-image: url(../image/instagram.png);
+    background-size: cover;
+}
+
+/* --------------------- FEITO POR ERICK ARAUJO BARBOSA --------------------- */
+     /* --------------------- SENAI JANDIRA - 2019 --------------------- */
+
